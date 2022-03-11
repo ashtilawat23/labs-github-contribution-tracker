@@ -4,16 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node -r esm index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ashtilawat23/labs-github-contribution-tracker.git"
+    "url": "https://github.com/ashtilawat23/labs-github-contribution-tracker.git"
   },
   "author": "Ashalesh Tilawat <ashtilawat23@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ashtilawat23/labs-github-contribution-tracker/issues"
   },
-  "homepage": "https://github.com/ashtilawat23/labs-github-contribution-tracker#readme"
+  "homepage": "https://github.com/ashtilawat23/labs-github-contribution-tracker#readme",
+  "dependencies": {
+    "@octokit/rest": "^18.12.0",
+    "dotenv": "^16.0.0",
+    "esm": "^3.2.25"
+  }
 }
