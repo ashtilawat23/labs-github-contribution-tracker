@@ -32,5 +32,27 @@ export const getPullRequestsByRepo = (org, ghRepo) => {
     });
 }
 
+export const getTeamsByRepo = (org) => {
+    octokit.rest.teams.list({
+        org: org
+    })
+    .then( (res) => {
+        console.log(res.data);
+    })
+    .catch( (err) => {
+        console.log(err);
+    })
+}
 
-
+export const getMembersByTeam = (org, slug) => {
+    octokit.rest.teams.listMembersInOrg({
+        org: org,
+        team_slug: slug
+    })
+    .then( (res) => {
+        console.log(res.data);
+    })
+    .catch( (err) => {
+        console.log(err)
+    })
+}
