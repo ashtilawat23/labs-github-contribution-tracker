@@ -1,4 +1,4 @@
-# labs-github-contribution-tracker
+# Labs GitHub Contribution Tracker
 
 Project created with ```npm init -y```.  
 
@@ -16,7 +16,9 @@ Project created with ```npm init -y```.
 - Some of our dependences, like ```lowdb```, are purely ESM packages. You must use ```import ...```/```export...``` in any file you add/update in this repo. 
 - In addition, please maintain ```"type":"module"``` in the package.json to ensure working imports. 
 
-### Teams Object
+> For more info on using pure ESM packages, use this useful [guide](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)!
+
+### Teams Object Types
 
 ```
 teams: [
