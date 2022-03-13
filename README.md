@@ -13,7 +13,7 @@ Project created with ```npm init -y```.
 
 ### Note the following before adding/updating to this repo: 
 
-- Some of our dependences, like ```lowdb```, are purely ESM packages. You must use ```import ...```/```export...``` in any file you add/update in this repo. 
+- Some of our dependences, like ```lowdb```, are pure ESM packages. You must use ```import ...```/```export...``` in any file you add/update in this repo. 
 - In addition, please maintain ```"type":"module"``` in the package.json to ensure working imports. 
 
 > For more info on using pure ESM packages, use this useful [guide](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)!
