@@ -19,6 +19,4 @@ async function getTeamsByOrg(ORG) {
 
 };
 
-
-
 export { getTeamsByOrg };

@@ -1,19 +1,16 @@
-// import { join, dirname } from 'path'
-// import { Low, JSONFile } from 'lowdb'
-// import { fileURLToPath } from 'url'
+import { join, dirname } from 'path'
+import { Low, JSONFile } from 'lowdb'
+import { fileURLToPath } from 'url'
 import 'dotenv/config'
 import { getTeamsByOrg } from './wrappers/GitHub.js'
 
-const teams = new Map();
+const teams = [];
 
-// const __dirname = dirname(fileURLToPath(import.meta.url));
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
-// console.log(__dirname)
-
-// Use JSON file for storage
-// const file = join(__dirname, 'db.json')
-// const adapter = new JSONFile(file)
-// const db = new Low(adapter)
+const file = join(__dirname, 'db.json')
+const adapter = new JSONFile(file)
+const db = new Low(adapter)
 
 // Read data from JSON file, this will set db.data content
 // await db.read()
@@ -31,8 +28,30 @@ const teams = new Map();
 
 Promise.all([getTeamsByOrg(process.env.GITHUB_ORG)])
     .then( (res) => {
-        console.log(res[0].data);
+        res[0].data.forEach( (team) => {
+            teams.push({ 
+                name: team.name,
+                slug: team.slug,
+                id: team.id,
+                members: [],
+                repos: []
+            });
+        })
     })
     .catch( (err) => {
         console.log(err);
     });
+
+const writeTeams = () => {
+    db.data = db.data || { ghTeams: [] }
+    teams.forEach( (team) => {
+        db.data
+        .ghTeams
+        .push(team)
+        db.write()
+    });
+};
+
+setTimeout(() => {
+    writeTeams();
+}, 5000);

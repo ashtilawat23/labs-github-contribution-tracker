@@ -1,0 +1,95 @@
+{
+  "ghTeams": [
+    {
+      "name": "Coder Heroes",
+      "slug": "coder-heroes",
+      "id": 5275065,
+      "members": [],
+      "repos": []
+    },
+    {
+      "name": "Family Promise Case Mgmt",
+      "slug": "family-promise-case-mgmt",
+      "id": 5533004,
+      "members": [],
+      "repos": []
+    },
+    {
+      "name": "Human Rights First - Document DB",
+      "slug": "human-rights-first-document-db",
+      "id": 5072185,
+      "members": [],
+      "repos": []
+    },
+    {
+      "name": "Labby Admins",
+      "slug": "labby-admins",
+      "id": 3548536,
+      "members": [],
+      "repos": []
+    },
+    {
+      "name": "Labs Contractors",
+      "slug": "labs-contractors",
+      "id": 4773713,
+      "members": [],
+      "repos": []
+    },
+    {
+      "name": "Labs Engineering",
+      "slug": "labs-engineering",
+      "id": 3604400,
+      "members": [],
+      "repos": []
+    },
+    {
+      "name": "Scribble-Stadium",
+      "slug": "scribble-stadium",
+      "id": 5088459,
+      "members": [],
+      "repos": []
+    },
+    {
+      "name": "Staff",
+      "slug": "staff",
+      "id": 4743442,
+      "members": [],
+      "repos": []
+    },
+    {
+      "name": "team-solush",
+      "slug": "team-solush",
+      "id": 4518378,
+      "members": [],
+      "repos": []
+    },
+    {
+      "name": "Test Product",
+      "slug": "test-product",
+      "id": 4902320,
+      "members": [],
+      "repos": []
+    },
+    {
+      "name": "Test Product A",
+      "slug": "test-product-a",
+      "id": 4902327,
+      "members": [],
+      "repos": []
+    },
+    {
+      "name": "Test Product B",
+      "slug": "test-product-b",
+      "id": 4902329,
+      "members": [],
+      "repos": []
+    },
+    {
+      "name": "Underdog Devs",
+      "slug": "underdog-devs",
+      "id": 5263159,
+      "members": [],
+      "repos": []
+    }
+  ]
+}
