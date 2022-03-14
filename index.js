@@ -179,42 +179,42 @@ async function appendReviews() {
 
 // Executing functions
 
-setTimeout(() => {
-    buildTeams();
-}, 1000);
+// setTimeout(() => {
+//     buildTeams();
+// }, 1000);
 
-setTimeout(() => {
-    writeTeams();
-}, 3000);
+// setTimeout(() => {
+//     writeTeams();
+// }, 3000);
 
-setTimeout(() => {
-    buildMembers();
-}, 5000)
+// setTimeout(() => {
+//     buildMembers();
+// }, 5000)
 
-setTimeout(() => {
-    writeMembers();
-}, 7000);
+// setTimeout(() => {
+//     writeMembers();
+// }, 7000);
 
-setTimeout(() => {
-    buildRepos();
-}, 9000);
+// setTimeout(() => {
+//     buildRepos();
+// }, 9000);
 
-setTimeout(() => {
-    writeRepos();
-}, 11000);
+// setTimeout(() => {
+//     writeRepos();
+// }, 11000);
 
-setTimeout(() => {
-    buildLearners();
-}, 13000)
+// setTimeout(() => {
+//     buildLearners();
+// }, 13000)
 
-setTimeout(() => {
-    appendPulls();
-}, 15000);
+// setTimeout(() => {
+//     appendPulls();
+// }, 15000);
 
-setTimeout(() => {
-    buildPulls();
-}, 17000);
+// setTimeout(() => {
+//     buildPulls();
+// }, 17000);
 
-setTimeout(() => {
-    appendReviews();
-}, 19000);
+// setTimeout(() => {
+//     appendReviews();
+// }, 19000);

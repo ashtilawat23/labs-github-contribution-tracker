@@ -40,11 +40,15 @@ learners: [
         login: string,
         team: string,
         repos: Array<string>,
-        pulls: Array<number>,
+        pulls: Array<[
+            repo: string, 
+            pullNum: number
+        ]>,
+        prsSubmitted: number,
         prsMerged: number, 
         comments: number,
         reviews: number,
-        avgDesLen: number,
+        avgCommentLen: number,
     }
 ]
 ```
