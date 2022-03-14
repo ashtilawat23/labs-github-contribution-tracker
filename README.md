@@ -21,12 +21,30 @@ Project created with ```npm init -y```.
 ### Teams Object Types
 
 ```
-teams: [
-    name: {
+ghTeams: [
+    {
+        name: string,
         teamSlug: string,
         teamId: number,
         members: Array<string>,
         repos: Array<string>,
+    }
+]
+```
+
+### Learner Object Types
+
+```
+learners: [
+    {
+        login: string,
+        team: string,
+        repos: Array<string>,
+        pulls: Array<number>,
+        prsMerged: number, 
+        comments: number,
+        reviews: number,
+        avgDesLen: number,
     }
 ]
 ```
