@@ -21,12 +21,12 @@ async function getTeamsByOrg(ORG) {
 
 async function getMembersBySlug(ORG, SLUG) {
     try {
-        const reponse = await octokit.rest.teams
+        const response = await octokit.rest.teams
         .listMembersInOrg({
             org: ORG,
             team_slug: SLUG
         });
-        return reponse;
+        return response;
     } 
     catch(error) {
         console.log(`Could not get members: $(error)`);
@@ -35,16 +35,34 @@ async function getMembersBySlug(ORG, SLUG) {
 
 async function getReposBySlug(ORG, SLUG) {
     try {
-        const reponse = await octokit.rest.teams
+        const response = await octokit.rest.teams
         .listReposInOrg({
             org: ORG,
             team_slug: SLUG
         });
-        return reponse;
+        return response;
     } 
     catch(error) {
         console.log(`Could not get repos: $(error)`);
     };
 };
 
-export { getTeamsByOrg, getMembersBySlug, getReposBySlug };
+async function getPullsByRepo(ORG, REPO) {
+    try {
+        const response = await octokit.rest.pulls
+        .list({
+            owner: ORG,
+            repo: REPO,
+            sort: 'created',
+            state: 'closed',
+            direction: 'desc',
+            per_page: '100'
+        });
+        return response;
+    } 
+    catch(error) {
+        console.log(`Could not get pulls: $(error)`);
+    };
+};
+
+export { getTeamsByOrg, getMembersBySlug, getReposBySlug, getPullsByRepo };

@@ -2,7 +2,7 @@ import { join, dirname } from 'path'
 import { Low, JSONFile } from 'lowdb'
 import { fileURLToPath } from 'url'
 import 'dotenv/config'
-import { getMembersBySlug, getTeamsByOrg, getReposBySlug } from './wrappers/GitHub.js'
+import { getMembersBySlug, getTeamsByOrg, getReposBySlug, getPullsByRepo } from './wrappers/GitHub.js'
 
 // Defining default variable values
 
@@ -39,7 +39,7 @@ function buildTeams(ORG) {
 };
 
 function writeTeams() {
-    db.data = db.data || { ghTeams: [] }
+    db.data = db.data || { ghTeams: [], learners: [] }
     teams.forEach( (team) => {
         db.data
         .ghTeams
@@ -53,7 +53,7 @@ async function buildMembers(ORG) {
     db.data.ghTeams.forEach( (team) => {
         Promise.all([getMembersBySlug(ORG, team.slug)])
             .then( (res) => {
-                members.set(team.name, res[0].data);
+                members.set(team.name, res[0].data.map( (member) => member.login));
             })
             .catch( (err) => {
                 console.log(err);
@@ -75,7 +75,7 @@ async function buildRepos(ORG) {
     db.data.ghTeams.forEach( (team) => {
         Promise.all([getReposBySlug(ORG, team.slug)])
             .then( (res) => {
-                repos.set(team.name, res[0].data);
+                repos.set(team.name, res[0].data.map( (repo) => repo.name));
             })
             .catch( (err) => {
                 console.log(err);
@@ -88,6 +88,25 @@ async function writeRepos() {
     db.data
     .ghTeams.forEach( (team) => {
         team.repos.push(...repos.get(team.name));
+    });
+    db.write()
+};
+
+async function buildLearners() {
+    await db.read()
+    members.forEach( (value, key) => {
+        value.forEach( (learner) => {
+            db.data.learners.push({
+                login: learner,
+                team: key,
+                repos: [...repos.get(key)],
+                pulls: [],
+                prsMerged: 0,
+                comments: 0,
+                reviews: 0,
+                avgDesLen: 0,
+            });
+        });
     });
     db.write()
 };
@@ -118,13 +137,18 @@ setTimeout(() => {
     writeRepos();
 }, 13000);
 
-// Double-check saved data in db.json
+setTimeout(() => {
+    buildLearners();
+}, 15000)
 
-async function checkMembers() {
-    await db.read()
-    db.data.ghTeams.forEach((team) => {
-        console.log(team.name);
-        console.log(team.members.length);
-    })
-};
+// Promise.all([getPullsByRepo(ORG, 'scribble-stadium-fe')])
+//     .then( (res) => {
+//         res[0].data.forEach( (pull) => {
+//             console.log(pull.closed_at);
+//         })
+//     })
+//     .catch( (err) => {
+//         console.log(err);
+//     });
+
 
