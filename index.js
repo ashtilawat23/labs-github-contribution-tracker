@@ -2,7 +2,7 @@ import { join, dirname } from 'path'
 import { Low, JSONFile } from 'lowdb'
 import { fileURLToPath } from 'url'
 import 'dotenv/config'
-import { getMembersBySlug, getTeamsByOrg, getReposBySlug, getPullsByRepo, getReviewsByPullNum } from './wrappers/GitHub.js'
+import { getMembersBySlug, getTeamsByOrg, getReposBySlug, getPullsByRepo, getReviewsByPullNum, getCommitsByPullNum } from './wrappers/GitHub.js'
 
 // Defining default variable values
 

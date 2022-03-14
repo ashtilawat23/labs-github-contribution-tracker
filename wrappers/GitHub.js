@@ -81,4 +81,19 @@ async function getReviewsByPullNum(ORG, REPO, PULLNUM) {
     };
 };
 
-export { getTeamsByOrg, getMembersBySlug, getReposBySlug, getPullsByRepo, getReviewsByPullNum };
+async function getCommitsByPullNum(ORG, REPO, PULLNUM) {
+    try {
+        const response = await octokit.rest.pulls
+        .listCommits({
+            owner: ORG,
+            repo: REPO,
+            pull_number: PULLNUM
+        });
+        return response;
+    } 
+    catch(error) {
+        console.log(`Could not get commits: ${error}`);
+    };
+};
+
+export { getTeamsByOrg, getMembersBySlug, getReposBySlug, getPullsByRepo, getReviewsByPullNum, getCommitsByPullNum };
