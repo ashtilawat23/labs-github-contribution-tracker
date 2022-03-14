@@ -261,121 +261,6 @@
   ],
   "learners": [
     {
-      "login": "ryan-hamblin",
-      "team": "team-solush",
-      "repos": [
-        "overreach-dash-fe",
-        "overreach-dash-be"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "frankfusco",
-      "team": "team-solush",
-      "repos": [
-        "overreach-dash-fe",
-        "overreach-dash-be"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "tinomen",
-      "team": "Labby Admins",
-      "repos": [
-        "labby-functions",
-        "djhelper-ios"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "ryan-hamblin",
-      "team": "Labby Admins",
-      "repos": [
-        "labby-functions",
-        "djhelper-ios"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "frankfusco",
-      "team": "Labby Admins",
-      "repos": [
-        "labby-functions",
-        "djhelper-ios"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "tinomen",
-      "team": "Staff",
-      "repos": [],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "ryan-hamblin",
-      "team": "Staff",
-      "repos": [],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "cyreallen",
-      "team": "Staff",
-      "repos": [],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "frankfusco",
-      "team": "Staff",
-      "repos": [],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "bummings",
-      "team": "Staff",
-      "repos": [],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
       "login": "judekenny",
       "team": "Staff",
       "repos": [],
@@ -383,155 +268,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "ike-okonkwo",
-      "team": "Labs Contractors",
-      "repos": [],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "johnnydhicks",
-      "team": "Labs Contractors",
-      "repos": [],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "derekjpeters",
-      "team": "Labs Contractors",
-      "repos": [],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "tinomen",
-      "team": "Labs Engineering",
-      "repos": [
-        "WellDoneMobile",
-        "gitbook-standards",
-        "coder-heroes-ref-fe",
-        "coder-heroes-ref-be",
-        "coder-heroes-ref-experimental",
-        "InterviewADSL"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "ryan-hamblin",
-      "team": "Labs Engineering",
-      "repos": [
-        "WellDoneMobile",
-        "gitbook-standards",
-        "coder-heroes-ref-fe",
-        "coder-heroes-ref-be",
-        "coder-heroes-ref-experimental",
-        "InterviewADSL"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "BrokenShell",
-      "team": "Labs Engineering",
-      "repos": [
-        "WellDoneMobile",
-        "gitbook-standards",
-        "coder-heroes-ref-fe",
-        "coder-heroes-ref-be",
-        "coder-heroes-ref-experimental",
-        "InterviewADSL"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "frankfusco",
-      "team": "Labs Engineering",
-      "repos": [
-        "WellDoneMobile",
-        "gitbook-standards",
-        "coder-heroes-ref-fe",
-        "coder-heroes-ref-be",
-        "coder-heroes-ref-experimental",
-        "InterviewADSL"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "paulstgermain",
-      "team": "Labs Engineering",
-      "repos": [
-        "WellDoneMobile",
-        "gitbook-standards",
-        "coder-heroes-ref-fe",
-        "coder-heroes-ref-be",
-        "coder-heroes-ref-experimental",
-        "InterviewADSL"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "ashtilawat23",
-      "team": "Labs Engineering",
-      "repos": [
-        "WellDoneMobile",
-        "gitbook-standards",
-        "coder-heroes-ref-fe",
-        "coder-heroes-ref-be",
-        "coder-heroes-ref-experimental",
-        "InterviewADSL"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "ryan-hamblin",
-      "team": "Coder Heroes",
-      "repos": [
-        "coder-heroes-fe",
-        "coder-heroes-be",
-        "coder-heroes-ref-fe",
-        "coder-heroes-ref-be",
-        "coder-heroes-ref-experimental"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "MaryAngelique",
@@ -547,23 +284,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "paulstgermain",
-      "team": "Coder Heroes",
-      "repos": [
-        "coder-heroes-fe",
-        "coder-heroes-be",
-        "coder-heroes-ref-fe",
-        "coder-heroes-ref-be",
-        "coder-heroes-ref-experimental"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "aaronpear",
@@ -579,7 +300,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "jmerz826",
@@ -595,7 +316,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "Adamh1990",
@@ -611,7 +332,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "ModupeD",
@@ -623,11 +344,28 @@
         "coder-heroes-ref-be",
         "coder-heroes-ref-experimental"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "coder-heroes-fe",
+          160
+        ],
+        [
+          "coder-heroes-fe",
+          158
+        ],
+        [
+          "coder-heroes-fe",
+          157
+        ],
+        [
+          "coder-heroes-fe",
+          151
+        ]
+      ],
+      "prsMerged": 4,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "JakeHappel",
@@ -643,7 +381,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "luisbryandr",
@@ -659,7 +397,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "moua0061",
@@ -675,7 +413,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "NelsonMaldonado",
@@ -691,7 +429,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "Raj-04",
@@ -707,7 +445,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "19jlevitre",
@@ -719,11 +457,16 @@
         "coder-heroes-ref-be",
         "coder-heroes-ref-experimental"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "coder-heroes-fe",
+          144
+        ]
+      ],
+      "prsMerged": 1,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "mark-escosura",
@@ -735,11 +478,28 @@
         "coder-heroes-ref-be",
         "coder-heroes-ref-experimental"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "coder-heroes-fe",
+          155
+        ],
+        [
+          "coder-heroes-fe",
+          150
+        ],
+        [
+          "coder-heroes-fe",
+          145
+        ],
+        [
+          "coder-heroes-fe",
+          139
+        ]
+      ],
+      "prsMerged": 4,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "sagun1151",
@@ -755,24 +515,322 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
-      "login": "tinomen",
-      "team": "Scribble-Stadium",
+      "login": "nlittlepoole",
+      "team": "Family Promise Case Mgmt",
       "repos": [
-        "scribble-stadium-ds",
-        "scribble-stadium-be",
-        "scribble-stadium-fe",
-        "scribble-stadium-ios",
-        "github-flow-labs-pt-sep",
-        "ptct-github-flow-labs"
+        "family-promise-case-mgmt-fe",
+        "family-promise-case-mgmt-be"
+      ],
+      "pulls": [
+        [
+          "scribble-stadium-ds",
+          121
+        ],
+        [
+          "scribble-stadium-ds",
+          113
+        ],
+        [
+          "scribble-stadium-ds",
+          110
+        ],
+        [
+          "scribble-stadium-ds",
+          105
+        ]
+      ],
+      "prsMerged": 4,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "JoshuaHolloway",
+      "team": "Family Promise Case Mgmt",
+      "repos": [
+        "family-promise-case-mgmt-fe",
+        "family-promise-case-mgmt-be"
       ],
       "pulls": [],
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
+    },
+    {
+      "login": "wild-kard",
+      "team": "Family Promise Case Mgmt",
+      "repos": [
+        "family-promise-case-mgmt-fe",
+        "family-promise-case-mgmt-be"
+      ],
+      "pulls": [
+        [
+          "family-promise-case-mgmt-fe",
+          23
+        ],
+        [
+          "family-promise-case-mgmt-fe",
+          22
+        ]
+      ],
+      "prsMerged": 2,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "JoeKrapsicher",
+      "team": "Family Promise Case Mgmt",
+      "repos": [
+        "family-promise-case-mgmt-fe",
+        "family-promise-case-mgmt-be"
+      ],
+      "pulls": [],
+      "prsMerged": 0,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "gsauce7",
+      "team": "Family Promise Case Mgmt",
+      "repos": [
+        "family-promise-case-mgmt-fe",
+        "family-promise-case-mgmt-be"
+      ],
+      "pulls": [
+        [
+          "family-promise-case-mgmt-fe",
+          20
+        ]
+      ],
+      "prsMerged": 1,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "miketillman95",
+      "team": "Family Promise Case Mgmt",
+      "repos": [
+        "family-promise-case-mgmt-fe",
+        "family-promise-case-mgmt-be"
+      ],
+      "pulls": [
+        [
+          "family-promise-case-mgmt-be",
+          13
+        ],
+        [
+          "family-promise-case-mgmt-be",
+          10
+        ],
+        [
+          "family-promise-case-mgmt-be",
+          6
+        ],
+        [
+          "family-promise-case-mgmt-be",
+          2
+        ],
+        [
+          "scribble-stadium-be",
+          98
+        ]
+      ],
+      "prsMerged": 5,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "jdeltoro88",
+      "team": "Family Promise Case Mgmt",
+      "repos": [
+        "family-promise-case-mgmt-fe",
+        "family-promise-case-mgmt-be"
+      ],
+      "pulls": [
+        [
+          "family-promise-case-mgmt-fe",
+          16
+        ],
+        [
+          "scribble-stadium-fe",
+          352
+        ]
+      ],
+      "prsMerged": 2,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "rivyyriv",
+      "team": "Family Promise Case Mgmt",
+      "repos": [
+        "family-promise-case-mgmt-fe",
+        "family-promise-case-mgmt-be"
+      ],
+      "pulls": [
+        [
+          "family-promise-case-mgmt-be",
+          4
+        ]
+      ],
+      "prsMerged": 1,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "Rex-1031",
+      "team": "Family Promise Case Mgmt",
+      "repos": [
+        "family-promise-case-mgmt-fe",
+        "family-promise-case-mgmt-be"
+      ],
+      "pulls": [],
+      "prsMerged": 0,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "stepbystepdayo",
+      "team": "Family Promise Case Mgmt",
+      "repos": [
+        "family-promise-case-mgmt-fe",
+        "family-promise-case-mgmt-be"
+      ],
+      "pulls": [
+        [
+          "family-promise-case-mgmt-be",
+          16
+        ]
+      ],
+      "prsMerged": 1,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "aurelions",
+      "team": "Family Promise Case Mgmt",
+      "repos": [
+        "family-promise-case-mgmt-fe",
+        "family-promise-case-mgmt-be"
+      ],
+      "pulls": [],
+      "prsMerged": 0,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "chavionjackson",
+      "team": "Family Promise Case Mgmt",
+      "repos": [
+        "family-promise-case-mgmt-fe",
+        "family-promise-case-mgmt-be"
+      ],
+      "pulls": [],
+      "prsMerged": 0,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "katehunnicutt",
+      "team": "Family Promise Case Mgmt",
+      "repos": [
+        "family-promise-case-mgmt-fe",
+        "family-promise-case-mgmt-be"
+      ],
+      "pulls": [
+        [
+          "family-promise-case-mgmt-be",
+          11
+        ]
+      ],
+      "prsMerged": 1,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "thecuriousones",
+      "team": "Family Promise Case Mgmt",
+      "repos": [
+        "family-promise-case-mgmt-fe",
+        "family-promise-case-mgmt-be"
+      ],
+      "pulls": [],
+      "prsMerged": 0,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "ShariqAli-Dev",
+      "team": "Family Promise Case Mgmt",
+      "repos": [
+        "family-promise-case-mgmt-fe",
+        "family-promise-case-mgmt-be"
+      ],
+      "pulls": [
+        [
+          "family-promise-case-mgmt-fe",
+          18
+        ],
+        [
+          "family-promise-case-mgmt-fe",
+          17
+        ]
+      ],
+      "prsMerged": 2,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "JohnRyanB",
+      "team": "Family Promise Case Mgmt",
+      "repos": [
+        "family-promise-case-mgmt-fe",
+        "family-promise-case-mgmt-be"
+      ],
+      "pulls": [],
+      "prsMerged": 0,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "stkirk",
+      "team": "Family Promise Case Mgmt",
+      "repos": [
+        "family-promise-case-mgmt-fe",
+        "family-promise-case-mgmt-be"
+      ],
+      "pulls": [
+        [
+          "family-promise-case-mgmt-be",
+          14
+        ],
+        [
+          "family-promise-case-mgmt-fe",
+          21
+        ]
+      ],
+      "prsMerged": 2,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
     },
     {
       "login": "nlittlepoole",
@@ -789,7 +847,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "jraval",
@@ -802,28 +860,24 @@
         "github-flow-labs-pt-sep",
         "ptct-github-flow-labs"
       ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "ryan-hamblin",
-      "team": "Scribble-Stadium",
-      "repos": [
-        "scribble-stadium-ds",
-        "scribble-stadium-be",
-        "scribble-stadium-fe",
-        "scribble-stadium-ios",
-        "github-flow-labs-pt-sep",
-        "ptct-github-flow-labs"
+      "pulls": [
+        [
+          "scribble-stadium-ds",
+          111
+        ],
+        [
+          "scribble-stadium-ds",
+          109
+        ],
+        [
+          "scribble-stadium-ds",
+          108
+        ]
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "prsMerged": 3,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "TashaSkyUp",
@@ -836,11 +890,52 @@
         "github-flow-labs-pt-sep",
         "ptct-github-flow-labs"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "scribble-stadium-ds",
+          116
+        ],
+        [
+          "scribble-stadium-ds",
+          93
+        ],
+        [
+          "scribble-stadium-ds",
+          89
+        ],
+        [
+          "scribble-stadium-ds",
+          88
+        ],
+        [
+          "scribble-stadium-ds",
+          87
+        ],
+        [
+          "scribble-stadium-ds",
+          69
+        ],
+        [
+          "scribble-stadium-ds",
+          60
+        ],
+        [
+          "scribble-stadium-ds",
+          57
+        ],
+        [
+          "scribble-stadium-ds",
+          46
+        ],
+        [
+          "scribble-stadium-ds",
+          45
+        ]
+      ],
+      "prsMerged": 10,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "Bus42",
@@ -857,7 +952,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "MABYY",
@@ -874,7 +969,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "paulhusbandjr",
@@ -891,7 +986,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "rockyFierro",
@@ -904,11 +999,16 @@
         "github-flow-labs-pt-sep",
         "ptct-github-flow-labs"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "scribble-stadium-fe",
+          379
+        ]
+      ],
+      "prsMerged": 1,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "Regbmiller",
@@ -925,7 +1025,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "markporo",
@@ -942,24 +1042,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "derekjpeters",
-      "team": "Scribble-Stadium",
-      "repos": [
-        "scribble-stadium-ds",
-        "scribble-stadium-be",
-        "scribble-stadium-fe",
-        "scribble-stadium-ios",
-        "github-flow-labs-pt-sep",
-        "ptct-github-flow-labs"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "hamidash",
@@ -976,7 +1059,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "WhyseRabbit",
@@ -989,11 +1072,16 @@
         "github-flow-labs-pt-sep",
         "ptct-github-flow-labs"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "scribble-stadium-ds",
+          102
+        ]
+      ],
+      "prsMerged": 1,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "james-caldwell1981",
@@ -1006,11 +1094,16 @@
         "github-flow-labs-pt-sep",
         "ptct-github-flow-labs"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "scribble-stadium-ds",
+          117
+        ]
+      ],
+      "prsMerged": 1,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "kyle-naumann",
@@ -1027,7 +1120,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "RodolfoJaspe",
@@ -1040,11 +1133,32 @@
         "github-flow-labs-pt-sep",
         "ptct-github-flow-labs"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "scribble-stadium-fe",
+          384
+        ],
+        [
+          "scribble-stadium-fe",
+          377
+        ],
+        [
+          "scribble-stadium-fe",
+          376
+        ],
+        [
+          "scribble-stadium-fe",
+          375
+        ],
+        [
+          "scribble-stadium-fe",
+          371
+        ]
+      ],
+      "prsMerged": 5,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "MarkLWorkman",
@@ -1061,7 +1175,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "Cyamos2",
@@ -1078,24 +1192,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "ashtilawat23",
-      "team": "Scribble-Stadium",
-      "repos": [
-        "scribble-stadium-ds",
-        "scribble-stadium-be",
-        "scribble-stadium-fe",
-        "scribble-stadium-ios",
-        "github-flow-labs-pt-sep",
-        "ptct-github-flow-labs"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "SpacelessTime",
@@ -1112,7 +1209,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "AaronGabriel147",
@@ -1129,7 +1226,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "JoshuaJAnderson",
@@ -1146,7 +1243,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "kathrynhodges",
@@ -1163,280 +1260,454 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
-      "login": "tinomen",
-      "team": "Family Promise Case Mgmt",
+      "login": "hollberg",
+      "team": "Underdog Devs",
       "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
       ],
       "pulls": [],
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
-      "login": "nlittlepoole",
-      "team": "Family Promise Case Mgmt",
+      "login": "techwulf",
+      "team": "Underdog Devs",
       "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
       ],
       "pulls": [],
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
-      "login": "JoshuaHolloway",
-      "team": "Family Promise Case Mgmt",
+      "login": "tarasshulhan",
+      "team": "Underdog Devs",
       "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
+      ],
+      "pulls": [
+        [
+          "underdog-devs-fe-a",
+          128
+        ]
+      ],
+      "prsMerged": 1,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "beefybroccoli",
+      "team": "Underdog Devs",
+      "repos": [
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
       ],
       "pulls": [],
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
-      "login": "cyreallen",
-      "team": "Family Promise Case Mgmt",
+      "login": "benedictSchurwanz",
+      "team": "Underdog Devs",
       "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
       ],
       "pulls": [],
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
-      "login": "wild-kard",
-      "team": "Family Promise Case Mgmt",
+      "login": "jonathan-mcgraw",
+      "team": "Underdog Devs",
       "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
+      ],
+      "pulls": [
+        [
+          "underdog-devs-ds-a",
+          56
+        ]
+      ],
+      "prsMerged": 1,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "wscottreynders",
+      "team": "Underdog Devs",
+      "repos": [
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
       ],
       "pulls": [],
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
-      "login": "derekjpeters",
-      "team": "Family Promise Case Mgmt",
+      "login": "DaveMadden",
+      "team": "Underdog Devs",
       "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
       ],
       "pulls": [],
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
-      "login": "JoeKrapsicher",
-      "team": "Family Promise Case Mgmt",
+      "login": "mgrohnke",
+      "team": "Underdog Devs",
       "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
       ],
       "pulls": [],
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
-      "login": "gsauce7",
-      "team": "Family Promise Case Mgmt",
+      "login": "mohamedmosaed",
+      "team": "Underdog Devs",
       "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
       ],
       "pulls": [],
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
-      "login": "miketillman95",
-      "team": "Family Promise Case Mgmt",
+      "login": "NPAPENBURG",
+      "team": "Underdog Devs",
       "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
+      ],
+      "pulls": [
+        [
+          "underdog-devs-ds-a",
+          61
+        ],
+        [
+          "underdog-devs-ds-a",
+          60
+        ],
+        [
+          "underdog-devs-ds-a",
+          58
+        ]
+      ],
+      "prsMerged": 3,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "ChristianSmith2394",
+      "team": "Underdog Devs",
+      "repos": [
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
       ],
       "pulls": [],
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
-      "login": "jdeltoro88",
-      "team": "Family Promise Case Mgmt",
+      "login": "SheebaHashmi",
+      "team": "Underdog Devs",
       "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
+      ],
+      "pulls": [
+        [
+          "underdog-devs-be-a",
+          72
+        ]
+      ],
+      "prsMerged": 1,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "BakerJr1904",
+      "team": "Underdog Devs",
+      "repos": [
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
+      ],
+      "pulls": [
+        [
+          "underdog-devs-ds-a",
+          59
+        ]
+      ],
+      "prsMerged": 1,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "morgankj",
+      "team": "Underdog Devs",
+      "repos": [
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
       ],
       "pulls": [],
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
-      "login": "rivyyriv",
-      "team": "Family Promise Case Mgmt",
+      "login": "eagleye1144",
+      "team": "Underdog Devs",
       "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
       ],
       "pulls": [],
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
-      "login": "Rex-1031",
-      "team": "Family Promise Case Mgmt",
+      "login": "jcpcab",
+      "team": "Underdog Devs",
       "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
       ],
       "pulls": [],
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
-      "login": "stepbystepdayo",
-      "team": "Family Promise Case Mgmt",
+      "login": "phillipgalbraith",
+      "team": "Underdog Devs",
       "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
       ],
       "pulls": [],
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
-      "login": "aurelions",
-      "team": "Family Promise Case Mgmt",
+      "login": "NelsonMaldonado",
+      "team": "Underdog Devs",
       "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
       ],
       "pulls": [],
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
-      "login": "ashtilawat23",
-      "team": "Family Promise Case Mgmt",
+      "login": "AustinJamesWolff",
+      "team": "Underdog Devs",
       "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
       ],
       "pulls": [],
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
-      "login": "chavionjackson",
-      "team": "Family Promise Case Mgmt",
+      "login": "Astrospence",
+      "team": "Underdog Devs",
       "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
       ],
       "pulls": [],
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
-      "login": "katehunnicutt",
-      "team": "Family Promise Case Mgmt",
+      "login": "rodricobsanchez",
+      "team": "Underdog Devs",
       "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
+      ],
+      "pulls": [
+        [
+          "underdog-devs-ds-a",
+          41
+        ],
+        [
+          "underdog-devs-ds-a",
+          36
+        ]
+      ],
+      "prsMerged": 2,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "ZacharyRock",
+      "team": "Underdog Devs",
+      "repos": [
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
+      ],
+      "pulls": [
+        [
+          "underdog-devs-ds-a",
+          54
+        ],
+        [
+          "underdog-devs-ds-a",
+          47
+        ]
+      ],
+      "prsMerged": 2,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "OlatomiAdigun",
+      "team": "Underdog Devs",
+      "repos": [
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
+      ],
+      "pulls": [
+        [
+          "underdog-devs-ds-a",
+          49
+        ]
+      ],
+      "prsMerged": 1,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "monicasalas86",
+      "team": "Underdog Devs",
+      "repos": [
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
       ],
       "pulls": [],
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
-      "login": "thecuriousones",
-      "team": "Family Promise Case Mgmt",
+      "login": "r-gio28",
+      "team": "Underdog Devs",
       "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
+      ],
+      "pulls": [
+        [
+          "underdog-devs-fe-a",
+          137
+        ],
+        [
+          "underdog-devs-fe-a",
+          135
+        ],
+        [
+          "underdog-devs-fe-a",
+          100
+        ]
+      ],
+      "prsMerged": 3,
+      "comments": 0,
+      "reviews": 0,
+      "avgCommentLen": 0
+    },
+    {
+      "login": "BrittniKarat",
+      "team": "Underdog Devs",
+      "repos": [
+        "underdog-devs-ds-a",
+        "underdog-devs-fe-a",
+        "underdog-devs-be-a"
       ],
       "pulls": [],
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "ShariqAli-Dev",
-      "team": "Family Promise Case Mgmt",
-      "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "JohnRyanB",
-      "team": "Family Promise Case Mgmt",
-      "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "stkirk",
-      "team": "Family Promise Case Mgmt",
-      "repos": [
-        "family-promise-case-mgmt-fe",
-        "family-promise-case-mgmt-be"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "techwulf",
@@ -1451,22 +1722,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "ryan-hamblin",
-      "team": "Human Rights First - Document DB",
-      "repos": [
-        "human-rights-first-docdb-fe",
-        "human-rights-first-docdb-be",
-        "human-rights-first-docdb-ds",
-        "BoxScraper"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "theawesomejaik",
@@ -1477,11 +1733,16 @@
         "human-rights-first-docdb-ds",
         "BoxScraper"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "human-rights-first-docdb-ds",
+          11
+        ]
+      ],
+      "prsMerged": 1,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "mgreenwaldm",
@@ -1496,7 +1757,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "Bobby-Tav",
@@ -1507,26 +1768,40 @@
         "human-rights-first-docdb-ds",
         "BoxScraper"
       ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "jinjahninjah",
-      "team": "Human Rights First - Document DB",
-      "repos": [
-        "human-rights-first-docdb-fe",
-        "human-rights-first-docdb-be",
-        "human-rights-first-docdb-ds",
-        "BoxScraper"
+      "pulls": [
+        [
+          "human-rights-first-docdb-fe",
+          73
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          71
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          69
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          64
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          62
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          52
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          43
+        ]
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "prsMerged": 7,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "galtman5",
@@ -1537,26 +1812,16 @@
         "human-rights-first-docdb-ds",
         "BoxScraper"
       ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "paulstgermain",
-      "team": "Human Rights First - Document DB",
-      "repos": [
-        "human-rights-first-docdb-fe",
-        "human-rights-first-docdb-be",
-        "human-rights-first-docdb-ds",
-        "BoxScraper"
+      "pulls": [
+        [
+          "human-rights-first-docdb-ds",
+          24
+        ]
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "prsMerged": 1,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "sarahdherren",
@@ -1567,11 +1832,36 @@
         "human-rights-first-docdb-ds",
         "BoxScraper"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "human-rights-first-docdb-fe",
+          78
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          77
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          75
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          53
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          44
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          39
+        ]
+      ],
+      "prsMerged": 6,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "m-rath",
@@ -1582,11 +1872,32 @@
         "human-rights-first-docdb-ds",
         "BoxScraper"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "human-rights-first-docdb-ds",
+          37
+        ],
+        [
+          "human-rights-first-docdb-ds",
+          28
+        ],
+        [
+          "human-rights-first-docdb-ds",
+          19
+        ],
+        [
+          "human-rights-first-docdb-ds",
+          14
+        ],
+        [
+          "human-rights-first-docdb-ds",
+          13
+        ]
+      ],
+      "prsMerged": 5,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "rishimaru23",
@@ -1601,7 +1912,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "benclowe29",
@@ -1616,7 +1927,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "mattclibanoff",
@@ -1627,11 +1938,16 @@
         "human-rights-first-docdb-ds",
         "BoxScraper"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "underdog-devs-ds-a",
+          15
+        ]
+      ],
+      "prsMerged": 1,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "Fleekz",
@@ -1646,7 +1962,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "dominthebox",
@@ -1657,11 +1973,28 @@
         "human-rights-first-docdb-ds",
         "BoxScraper"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "human-rights-first-docdb-be",
+          26
+        ],
+        [
+          "human-rights-first-docdb-be",
+          25
+        ],
+        [
+          "human-rights-first-docdb-be",
+          22
+        ],
+        [
+          "human-rights-first-docdb-be",
+          19
+        ]
+      ],
+      "prsMerged": 4,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "caralocke",
@@ -1672,11 +2005,20 @@
         "human-rights-first-docdb-ds",
         "BoxScraper"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "human-rights-first-docdb-fe",
+          28
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          11
+        ]
+      ],
+      "prsMerged": 2,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "mkotik",
@@ -1687,11 +2029,20 @@
         "human-rights-first-docdb-ds",
         "BoxScraper"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "human-rights-first-docdb-be",
+          14
+        ],
+        [
+          "human-rights-first-docdb-be",
+          7
+        ]
+      ],
+      "prsMerged": 2,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "Amadou23",
@@ -1706,7 +2057,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "MMostella",
@@ -1717,11 +2068,16 @@
         "human-rights-first-docdb-ds",
         "BoxScraper"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "human-rights-first-docdb-fe",
+          54
+        ]
+      ],
+      "prsMerged": 1,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "LSislowski",
@@ -1736,7 +2092,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "RimshaSaleem",
@@ -1751,7 +2107,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "Klove-A",
@@ -1762,11 +2118,28 @@
         "human-rights-first-docdb-ds",
         "BoxScraper"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "human-rights-first-docdb-be",
+          27
+        ],
+        [
+          "human-rights-first-docdb-ds",
+          44
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          79
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          74
+        ]
+      ],
+      "prsMerged": 4,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "christina-yun",
@@ -1777,11 +2150,32 @@
         "human-rights-first-docdb-ds",
         "BoxScraper"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "human-rights-first-docdb-be",
+          24
+        ],
+        [
+          "human-rights-first-docdb-be",
+          23
+        ],
+        [
+          "human-rights-first-docdb-be",
+          21
+        ],
+        [
+          "human-rights-first-docdb-be",
+          20
+        ],
+        [
+          "human-rights-first-docdb-be",
+          18
+        ]
+      ],
+      "prsMerged": 5,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "jMisch44",
@@ -1792,11 +2186,40 @@
         "human-rights-first-docdb-ds",
         "BoxScraper"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "human-rights-first-docdb-fe",
+          68
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          65
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          58
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          48
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          47
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          46
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          45
+        ]
+      ],
+      "prsMerged": 7,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "xsong0306",
@@ -1811,7 +2234,7 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "SomeiLam",
@@ -1822,11 +2245,28 @@
         "human-rights-first-docdb-ds",
         "BoxScraper"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "human-rights-first-docdb-fe",
+          76
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          67
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          56
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          55
+        ]
+      ],
+      "prsMerged": 4,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "jonahjtr",
@@ -1837,11 +2277,36 @@
         "human-rights-first-docdb-ds",
         "BoxScraper"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "coder-heroes-fe",
+          126
+        ],
+        [
+          "coder-heroes-fe",
+          120
+        ],
+        [
+          "coder-heroes-fe",
+          117
+        ],
+        [
+          "coder-heroes-fe",
+          115
+        ],
+        [
+          "coder-heroes-fe",
+          113
+        ],
+        [
+          "coder-heroes-fe",
+          106
+        ]
+      ],
+      "prsMerged": 6,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "steinmikey",
@@ -1852,11 +2317,24 @@
         "human-rights-first-docdb-ds",
         "BoxScraper"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "human-rights-first-docdb-fe",
+          70
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          57
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          51
+        ]
+      ],
+      "prsMerged": 3,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "allisonhomem",
@@ -1867,11 +2345,28 @@
         "human-rights-first-docdb-ds",
         "BoxScraper"
       ],
-      "pulls": [],
-      "prsMerged": 0,
+      "pulls": [
+        [
+          "human-rights-first-docdb-fe",
+          72
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          63
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          60
+        ],
+        [
+          "human-rights-first-docdb-fe",
+          59
+        ]
+      ],
+      "prsMerged": 4,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     },
     {
       "login": "Grantzho",
@@ -1886,427 +2381,114 @@
       "prsMerged": 0,
       "comments": 0,
       "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "hollberg",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "techwulf",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "ryan-hamblin",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "tarasshulhan",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "beefybroccoli",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "benedictSchurwanz",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "BrokenShell",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "jonathan-mcgraw",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "paulstgermain",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "wscottreynders",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "DaveMadden",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "mgrohnke",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "mohamedmosaed",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "NPAPENBURG",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "ChristianSmith2394",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "SheebaHashmi",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "BakerJr1904",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "morgankj",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "eagleye1144",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "jcpcab",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "phillipgalbraith",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "NelsonMaldonado",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "AustinJamesWolff",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "Astrospence",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "rodricobsanchez",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "ZacharyRock",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "OlatomiAdigun",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "monicasalas86",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "r-gio28",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
-    },
-    {
-      "login": "BrittniKarat",
-      "team": "Underdog Devs",
-      "repos": [
-        "underdog-devs-ds-a",
-        "underdog-devs-fe-a",
-        "underdog-devs-be-a"
-      ],
-      "pulls": [],
-      "prsMerged": 0,
-      "comments": 0,
-      "reviews": 0,
-      "avgDesLen": 0
+      "avgCommentLen": 0
     }
+  ],
+  "lookup": [
+    "judekenny",
+    "MaryAngelique",
+    "aaronpear",
+    "jmerz826",
+    "Adamh1990",
+    "ModupeD",
+    "JakeHappel",
+    "luisbryandr",
+    "moua0061",
+    "NelsonMaldonado",
+    "Raj-04",
+    "19jlevitre",
+    "mark-escosura",
+    "sagun1151",
+    "nlittlepoole",
+    "JoshuaHolloway",
+    "wild-kard",
+    "JoeKrapsicher",
+    "gsauce7",
+    "miketillman95",
+    "jdeltoro88",
+    "rivyyriv",
+    "Rex-1031",
+    "stepbystepdayo",
+    "aurelions",
+    "chavionjackson",
+    "katehunnicutt",
+    "thecuriousones",
+    "ShariqAli-Dev",
+    "JohnRyanB",
+    "stkirk",
+    "nlittlepoole",
+    "jraval",
+    "TashaSkyUp",
+    "Bus42",
+    "MABYY",
+    "paulhusbandjr",
+    "rockyFierro",
+    "Regbmiller",
+    "markporo",
+    "hamidash",
+    "WhyseRabbit",
+    "james-caldwell1981",
+    "kyle-naumann",
+    "RodolfoJaspe",
+    "MarkLWorkman",
+    "Cyamos2",
+    "SpacelessTime",
+    "AaronGabriel147",
+    "JoshuaJAnderson",
+    "kathrynhodges",
+    "hollberg",
+    "techwulf",
+    "tarasshulhan",
+    "beefybroccoli",
+    "benedictSchurwanz",
+    "jonathan-mcgraw",
+    "wscottreynders",
+    "DaveMadden",
+    "mgrohnke",
+    "mohamedmosaed",
+    "NPAPENBURG",
+    "ChristianSmith2394",
+    "SheebaHashmi",
+    "BakerJr1904",
+    "morgankj",
+    "eagleye1144",
+    "jcpcab",
+    "phillipgalbraith",
+    "NelsonMaldonado",
+    "AustinJamesWolff",
+    "Astrospence",
+    "rodricobsanchez",
+    "ZacharyRock",
+    "OlatomiAdigun",
+    "monicasalas86",
+    "r-gio28",
+    "BrittniKarat",
+    "techwulf",
+    "theawesomejaik",
+    "mgreenwaldm",
+    "Bobby-Tav",
+    "galtman5",
+    "sarahdherren",
+    "m-rath",
+    "rishimaru23",
+    "benclowe29",
+    "mattclibanoff",
+    "Fleekz",
+    "dominthebox",
+    "caralocke",
+    "mkotik",
+    "Amadou23",
+    "MMostella",
+    "LSislowski",
+    "RimshaSaleem",
+    "Klove-A",
+    "christina-yun",
+    "jMisch44",
+    "xsong0306",
+    "SomeiLam",
+    "jonahjtr",
+    "steinmikey",
+    "allisonhomem",
+    "Grantzho"
   ]
 }

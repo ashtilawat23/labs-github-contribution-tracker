@@ -2,13 +2,14 @@ import { join, dirname } from 'path'
 import { Low, JSONFile } from 'lowdb'
 import { fileURLToPath } from 'url'
 import 'dotenv/config'
-import { getMembersBySlug, getTeamsByOrg, getReposBySlug, getPullsByRepo } from './wrappers/GitHub.js'
+import { getMembersBySlug, getTeamsByOrg, getReposBySlug, getPullsByRepo, getReviewsByPullNum } from './wrappers/GitHub.js'
 
 // Defining default variable values
 
 const teams = [];
 const members = new Map();
 const repos = new Map();
+const ghPulls = new Map();
 const ORG = process.env.GITHUB_ORG;
 
 // Setting up Lowdb
@@ -20,7 +21,7 @@ const db = new Low(adapter)
 
 // Execution functions
 
-function buildTeams(ORG) {
+function buildTeams() {
     Promise.all([getTeamsByOrg(ORG)])
         .then( (res) => {
             res[0].data.forEach( (team) => {
@@ -39,7 +40,7 @@ function buildTeams(ORG) {
 };
 
 function writeTeams() {
-    db.data = db.data || { ghTeams: [], learners: [] }
+    db.data = db.data || { ghTeams: [], learners: [], lookup: [] }
     teams.forEach( (team) => {
         db.data
         .ghTeams
@@ -48,7 +49,7 @@ function writeTeams() {
     });
 };
 
-async function buildMembers(ORG) {
+async function buildMembers() {
     await db.read()
     db.data.ghTeams.forEach( (team) => {
         Promise.all([getMembersBySlug(ORG, team.slug)])
@@ -70,7 +71,7 @@ async function writeMembers() {
     db.write()
 };
 
-async function buildRepos(ORG) {
+async function buildRepos() {
     await db.read()
     db.data.ghTeams.forEach( (team) => {
         Promise.all([getReposBySlug(ORG, team.slug)])
@@ -96,59 +97,100 @@ async function buildLearners() {
     await db.read()
     members.forEach( (value, key) => {
         value.forEach( (learner) => {
-            db.data.learners.push({
-                login: learner,
-                team: key,
-                repos: [...repos.get(key)],
-                pulls: [],
-                prsMerged: 0,
-                comments: 0,
-                reviews: 0,
-                avgDesLen: 0,
-            });
+            if (learner !== "tinomen" && learner !== "ryan-hamblin" && learner !== "frankfusco" && learner !== "ike-okonkwo" && learner !== "johnnydhicks" && learner !== "derekjpeters" && learner !== 'ashtilawat23' && learner !== "BrokenShell" && learner !== "paulstgermain" && learner !== "bummings" && learner !== "cyreallen" && learner !== "jinjahninjah") {
+                db.data.learners.push({
+                    login: learner,
+                    team: key,
+                    repos: [...repos.get(key)],
+                    pulls: [],
+                    prsMerged: 0,
+                    comments: 0,
+                    reviews: 0,
+                    avgCommentLen: 0,
+                });
+                db.data.lookup.push(learner);
+            };
         });
     });
     db.write()
 };
 
+async function appendPulls() {
+    await db.read()
+    repos.forEach((value) => {
+        value.forEach((repo) => {
+            Promise.all([getPullsByRepo(ORG, repo)])
+                .then((res) => {
+                    res[0].data.forEach((pull) => {
+                        if (db.data.lookup.includes(pull.user.login)) {
+                            db.data.learners[db.data.lookup.indexOf(pull.user.login)].pulls.push([repo, pull.number]);
+                            db.data.learners[db.data.lookup.indexOf(pull.user.login)].prsMerged += 1;
+                            db.write()
+                        };
+                    });
+                })
+                .catch((err) => {
+                    console.log(err);
+                });
+        });
+    });
+};
+
+async function buildPulls() {
+    await db.read()
+    db.data.learners.forEach((learner) => {
+        learner.pulls.forEach((pull) => {
+            if (ghPulls.has(pull[0])) {
+                const temp = ghPulls.get(pull[0]);
+                ghPulls.set(pull[0], [...temp, pull[1]]);
+            }
+            else {
+                ghPulls.set(pull[0], [pull[1]]);
+            };
+        });
+    });
+};
+
+
+
 // Executing functions
 
 setTimeout(() => {
-    buildTeams(ORG);
-}, 3000);
+    buildTeams();
+}, 1000);
 
 setTimeout(() => {
     writeTeams();
-}, 5000);
+}, 3000);
 
 setTimeout(() => {
-    buildMembers(ORG);
-}, 7000)
+    buildMembers();
+}, 5000)
 
 setTimeout(() => {
     writeMembers();
+}, 7000);
+
+setTimeout(() => {
+    buildRepos();
 }, 9000);
 
 setTimeout(() => {
-    buildRepos(ORG);
+    writeRepos();
 }, 11000);
 
 setTimeout(() => {
-    writeRepos();
-}, 13000);
+    buildLearners();
+}, 13000)
 
 setTimeout(() => {
-    buildLearners();
-}, 15000)
+    appendPulls();
+}, 15000);
 
-// Promise.all([getPullsByRepo(ORG, 'scribble-stadium-fe')])
-//     .then( (res) => {
-//         res[0].data.forEach( (pull) => {
-//             console.log(pull.closed_at);
-//         })
-//     })
-//     .catch( (err) => {
-//         console.log(err);
-//     });
+setTimeout(() => {
+    buildPulls();
+}, 17000);
 
-
+setTimeout(() => {
+    console.log(ghPulls);
+}, 18000);
