@@ -12,20 +12,6 @@ const file = join(__dirname, 'db.json')
 const adapter = new JSONFile(file)
 const db = new Low(adapter)
 
-// Read data from JSON file, this will set db.data content
-// await db.read()
-
-// If file.json doesn't exist, db.data will be null
-// Set default data
-// db.data = db.data || { posts: [] } 
-
-// You can also use this syntax if you prefer
-// const { posts } = db.data
-// posts.push('hello world')
-
-// Write db.data content to db.json
-// await db.write()
-
 Promise.all([getTeamsByOrg(process.env.GITHUB_ORG)])
     .then( (res) => {
         res[0].data.forEach( (team) => {

@@ -7,7 +7,7 @@ const octokit = new Octokit({
 
 async function getTeamsByOrg(ORG) {
     try {
-        const response = octokit.rest.teams
+        const response = await octokit.rest.teams
         .list({
             org: ORG
         });
@@ -19,4 +19,18 @@ async function getTeamsByOrg(ORG) {
 
 };
 
-export { getTeamsByOrg };
+async function getMembersBySlug(ORG, SLUG) {
+    try {
+        const reponse = await octokit.rest.teams
+        .listMembersInOrg({
+            org: ORG,
+            team_slug: SLUG
+        });
+        return reponse;
+    } 
+    catch(error) {
+        console.log(`Could not get members: $(error)`);
+    };
+}
+
+export { getTeamsByOrg, getMembersBySlug };
