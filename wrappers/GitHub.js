@@ -31,6 +31,20 @@ async function getMembersBySlug(ORG, SLUG) {
     catch(error) {
         console.log(`Could not get members: $(error)`);
     };
-}
+};
 
-export { getTeamsByOrg, getMembersBySlug };
+async function getReposBySlug(ORG, SLUG) {
+    try {
+        const reponse = await octokit.rest.teams
+        .listReposInOrg({
+            org: ORG,
+            team_slug: SLUG
+        });
+        return reponse;
+    } 
+    catch(error) {
+        console.log(`Could not get repos: $(error)`);
+    };
+};
+
+export { getTeamsByOrg, getMembersBySlug, getReposBySlug };

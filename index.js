@@ -2,12 +2,13 @@ import { join, dirname } from 'path'
 import { Low, JSONFile } from 'lowdb'
 import { fileURLToPath } from 'url'
 import 'dotenv/config'
-import { getMembersBySlug, getTeamsByOrg } from './wrappers/GitHub.js'
+import { getMembersBySlug, getTeamsByOrg, getReposBySlug } from './wrappers/GitHub.js'
 
 // Defining default variable values
 
 const teams = [];
 const members = new Map();
+const repos = new Map();
 const ORG = process.env.GITHUB_ORG;
 
 // Setting up Lowdb
@@ -64,7 +65,29 @@ async function writeMembers() {
     await db.read()
     db.data
     .ghTeams.forEach( (team) => {
-        team.members.push(members.get(team.name));
+        team.members.push(...members.get(team.name));
+    });
+    db.write()
+};
+
+async function buildRepos(ORG) {
+    await db.read()
+    db.data.ghTeams.forEach( (team) => {
+        Promise.all([getReposBySlug(ORG, team.slug)])
+            .then( (res) => {
+                repos.set(team.name, res[0].data);
+            })
+            .catch( (err) => {
+                console.log(err);
+            });
+    });
+}; 
+
+async function writeRepos() {
+    await db.read()
+    db.data
+    .ghTeams.forEach( (team) => {
+        team.repos.push(...repos.get(team.name));
     });
     db.write()
 };
@@ -87,5 +110,21 @@ setTimeout(() => {
     writeMembers();
 }, 9000);
 
+setTimeout(() => {
+    buildRepos(ORG);
+}, 11000);
 
+setTimeout(() => {
+    writeRepos();
+}, 13000);
+
+// Double-check saved data in db.json
+
+async function checkMembers() {
+    await db.read()
+    db.data.ghTeams.forEach((team) => {
+        console.log(team.name);
+        console.log(team.members.length);
+    })
+};
 
