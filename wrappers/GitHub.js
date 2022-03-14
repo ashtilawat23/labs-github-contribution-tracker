@@ -24,12 +24,13 @@ async function getMembersBySlug(ORG, SLUG) {
         const response = await octokit.rest.teams
         .listMembersInOrg({
             org: ORG,
-            team_slug: SLUG
+            team_slug: SLUG,
+            per_page: '100'
         });
         return response;
     } 
     catch(error) {
-        console.log(`Could not get members: $(error)`);
+        console.log(`Could not get members: ${error}`);
     };
 };
 
@@ -43,7 +44,7 @@ async function getReposBySlug(ORG, SLUG) {
         return response;
     } 
     catch(error) {
-        console.log(`Could not get repos: $(error)`);
+        console.log(`Could not get repos: ${error}`);
     };
 };
 
@@ -61,7 +62,7 @@ async function getPullsByRepo(ORG, REPO) {
         return response;
     } 
     catch(error) {
-        console.log(`Could not get pulls: $(error)`);
+        console.log(`Could not get pulls: ${error}`);
     };
 };
 
@@ -76,7 +77,7 @@ async function getReviewsByPullNum(ORG, REPO, PULLNUM) {
         return response;
     } 
     catch(error) {
-        console.log(`Could not get reviews: $(error)`);
+        console.log(`Could not get reviews: ${error}`);
     };
 };
 

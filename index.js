@@ -97,12 +97,13 @@ async function buildLearners() {
     await db.read()
     members.forEach( (value, key) => {
         value.forEach( (learner) => {
-            if (learner !== "tinomen" && learner !== "ryan-hamblin" && learner !== "frankfusco" && learner !== "ike-okonkwo" && learner !== "johnnydhicks" && learner !== "derekjpeters" && learner !== 'ashtilawat23' && learner !== "BrokenShell" && learner !== "paulstgermain" && learner !== "bummings" && learner !== "cyreallen" && learner !== "jinjahninjah") {
+            if (learner !== "tinomen" && learner !== "ryan-hamblin" && learner !== "nlittlepoole" && learner !== "TashaSkyUp" && learner !== "frankfusco" && learner !== "ike-okonkwo" && learner !== "johnnydhicks" && learner !== "derekjpeters" && learner !== 'ashtilawat23' && learner !== "BrokenShell" && learner !== "paulstgermain" && learner !== "bummings" && learner !== "cyreallen" && learner !== "jinjahninjah") {
                 db.data.learners.push({
                     login: learner,
                     team: key,
                     repos: [...repos.get(key)],
                     pulls: [],
+                    prsSubmitted: 0,
                     prsMerged: 0,
                     comments: 0,
                     reviews: 0,
@@ -124,7 +125,10 @@ async function appendPulls() {
                     res[0].data.forEach((pull) => {
                         if (db.data.lookup.includes(pull.user.login)) {
                             db.data.learners[db.data.lookup.indexOf(pull.user.login)].pulls.push([repo, pull.number]);
-                            db.data.learners[db.data.lookup.indexOf(pull.user.login)].prsMerged += 1;
+                            db.data.learners[db.data.lookup.indexOf(pull.user.login)].prsSubmitted += 1;
+                            if (pull.merged_at !== null) {
+                                db.data.learners[db.data.lookup.indexOf(pull.user.login)].prsMerged += 1;
+                            }
                             db.write()
                         };
                     });
@@ -151,7 +155,27 @@ async function buildPulls() {
     });
 };
 
-
+async function appendReviews() {
+    await db.read()
+    ghPulls.forEach((value, key) => {
+        value.forEach((pullNum) => {
+            Promise.all([getReviewsByPullNum(ORG, key, pullNum)])
+                .then((res) => {
+                    if (res[0].data.length > 0) {
+                        res[0].data.forEach((review) => {
+                            if (db.data.lookup.includes(review.user.login)) {
+                                db.data.learners[db.data.lookup.indexOf(review.user.login)].reviews += 1;
+                                db.write()
+                            };
+                        });
+                    };
+                })
+                .catch((err) => {
+                    console.log(err);
+                });
+        });
+    });
+};
 
 // Executing functions
 
@@ -192,5 +216,5 @@ setTimeout(() => {
 }, 17000);
 
 setTimeout(() => {
-    console.log(ghPulls);
-}, 18000);
+    appendReviews();
+}, 19000);
