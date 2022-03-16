@@ -10,6 +10,7 @@ const teams = [];
 const members = new Map();
 const repos = new Map();
 const ghPulls = new Map();
+const commits = new Map();
 const ORG = process.env.GITHUB_ORG;
 
 // Setting up Lowdb
@@ -103,11 +104,10 @@ async function buildLearners() {
                     team: key,
                     repos: [...repos.get(key)],
                     pulls: [],
+                    nums: [],
                     prsSubmitted: 0,
                     prsMerged: 0,
-                    comments: 0,
                     reviews: 0,
-                    avgCommentLen: 0,
                 });
                 db.data.lookup.push(learner);
             };
@@ -125,6 +125,7 @@ async function appendPulls() {
                     res[0].data.forEach((pull) => {
                         if (db.data.lookup.includes(pull.user.login)) {
                             db.data.learners[db.data.lookup.indexOf(pull.user.login)].pulls.push([repo, pull.number]);
+                            db.data.learners[db.data.lookup.indexOf(pull.user.login)].nums.push(pull.number);
                             db.data.learners[db.data.lookup.indexOf(pull.user.login)].prsSubmitted += 1;
                             if (pull.merged_at !== null) {
                                 db.data.learners[db.data.lookup.indexOf(pull.user.login)].prsMerged += 1;
@@ -177,44 +178,92 @@ async function appendReviews() {
     });
 };
 
+async function buildCommits() {
+    await db.read()
+    ghPulls.forEach((value, key) => {
+        value.forEach((pullNum) => {
+            Promise.all([getCommitsByPullNum(ORG, key, pullNum)])
+                .then((res) => {
+                    res[0].data.forEach((commit) => {
+                        if (commits.has(pullNum)) {
+                            const temp = commits.get(pullNum);
+                            if (!temp.includes(commit.committer.login)){
+                                commits.set(pullNum, [...temp, commit.committer.login]);
+                            };
+                        }
+                        else {
+                            commits.set(pullNum, [commit.committer.login]);
+                        };
+                    });
+                })
+                .catch( (err) => {
+                    console.log(err);
+                }); 
+        });
+    });
+};
+
+async function writeCommits() {
+    await db.read()
+    commits.forEach((value, key) => {
+        value.forEach((commiter) => {
+            if (db.data.lookup.includes(commiter)) {
+                const idx = db.data.lookup.indexOf(commiter);
+                if (!db.data.learners[idx].nums.includes(key)) {
+                    
+                }
+            }
+        })
+    })
+}
+
+
 // Executing functions
 
-// setTimeout(() => {
-//     buildTeams();
-// }, 1000);
+setTimeout(() => {
+    buildTeams();
+}, 1000);
+
+setTimeout(() => {
+    writeTeams();
+}, 3000);
+
+setTimeout(() => {
+    buildMembers();
+}, 5000)
+
+setTimeout(() => {
+    writeMembers();
+}, 7000);
+
+setTimeout(() => {
+    buildRepos();
+}, 9000);
+
+setTimeout(() => {
+    writeRepos();
+}, 11000);
+
+setTimeout(() => {
+    buildLearners();
+}, 13000)
+
+setTimeout(() => {
+    appendPulls();
+}, 15000);
+
+setTimeout(() => {
+    buildPulls();
+}, 17000);
+
+setTimeout(() => {
+    appendReviews();
+}, 19000);
+
+setTimeout(() => {
+    buildCommits();
+}, 21000);
 
 // setTimeout(() => {
-//     writeTeams();
-// }, 3000);
-
-// setTimeout(() => {
-//     buildMembers();
-// }, 5000)
-
-// setTimeout(() => {
-//     writeMembers();
-// }, 7000);
-
-// setTimeout(() => {
-//     buildRepos();
-// }, 9000);
-
-// setTimeout(() => {
-//     writeRepos();
-// }, 11000);
-
-// setTimeout(() => {
-//     buildLearners();
-// }, 13000)
-
-// setTimeout(() => {
-//     appendPulls();
-// }, 15000);
-
-// setTimeout(() => {
-//     buildPulls();
-// }, 17000);
-
-// setTimeout(() => {
-//     appendReviews();
-// }, 19000);
+//     console.log(commits);
+// }, 23000);
