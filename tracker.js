@@ -67,6 +67,7 @@ async function writeLearners() {
                 res[0].data.forEach( (member) => {
                     if (!staff.includes(member.login)) {
                         db.data.learners.push({
+                            name: member.name,
                             login: member.login,
                             id: member.id,
                             avatar: member.avatar_url,
@@ -93,7 +94,7 @@ async function writePulls() {
                         mergedAt: pull.merged_at,
                         authors: [pull.user.login],
                         commits: [],
-                        reviews: []
+                        reviewedBy: []
                     });
                     db.write()
                 });
@@ -108,7 +109,6 @@ async function writeCommits() {
             Promise.all([getCommitsByPullNum(org, repo.name, pull.number)])
                 .then((res) => {
                     res[0].data.forEach((commit) => {
-                        console.log(commit);
                         pull.commits.push(commit.sha);
                         db.write()
                         if (!pull.authors.includes(commit.commit.author.name || '')) {
@@ -123,6 +123,23 @@ async function writeCommits() {
     });
 };
 
+async function writeReviews() {
+    await db.read()
+    db.data.repos.forEach((repo) => {
+        repo.pulls.forEach((pull) => {
+            Promise.all([getReviewsByPullNum(org, repo.name, pull.number)])
+                .then((res) => {
+                    if (res[0].data.length > 0) {
+                        res[0].data.forEach((review) => {
+                            pull.reviewedBy.push(review.user.login);
+                            db.write()
+                        });
+                    };
+                });
+        });
+    });
+};
+
 
 const executionArr = [
     setDefaults, 
@@ -130,16 +147,13 @@ const executionArr = [
     writeRepos, 
     writeLearners, 
     writePulls,
-    writeCommits
+    writeCommits,
+    writeReviews
 ];
-for (let i=0; i<executionArr.length; i++) {
-    setTimeout(executionArr[i], i*3000);
+
+export function writeDb() {
+    for (let i=0; i<executionArr.length; i++) {
+        setTimeout(executionArr[i], i*3000);
+    };
 };
 
-// getCommitsByPullNum(org, 'family-promise-case-mgmt-fe', 23)
-//     .then( (res) => {
-//         console.log(res.data.map((commit => commit.author.login)));
-//     })
-//     .catch( (err) => {
-//         console.log(err);
-//     });
