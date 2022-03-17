@@ -92,12 +92,34 @@ async function writePulls() {
                         number: pull.number,
                         mergedAt: pull.merged_at,
                         authors: [pull.user.login],
-                        commits_url: [],
+                        commits: [],
                         reviews: []
                     });
                     db.write()
                 });
             });
+    });
+};
+
+async function writeCommits() {
+    await db.read()
+    db.data.repos.forEach((repo) => {
+        repo.pulls.forEach((pull) => {
+            Promise.all([getCommitsByPullNum(org, repo.name, pull.number)])
+                .then((res) => {
+                    res[0].data.forEach((commit) => {
+                        console.log(commit);
+                        pull.commits.push(commit.sha);
+                        db.write()
+                        if (!pull.authors.includes(commit.commit.author.name || '')) {
+                            pull.authors.push(commit.commit.author.name);
+                        };
+                    });
+                })
+                .catch((error) => {
+                    console.log(error);
+                });
+        });
     });
 };
 
@@ -107,8 +129,17 @@ const executionArr = [
     writeTeams, 
     writeRepos, 
     writeLearners, 
-    writePulls
+    writePulls,
+    writeCommits
 ];
 for (let i=0; i<executionArr.length; i++) {
     setTimeout(executionArr[i], i*3000);
 };
+
+// getCommitsByPullNum(org, 'family-promise-case-mgmt-fe', 23)
+//     .then( (res) => {
+//         console.log(res.data.map((commit => commit.author.login)));
+//     })
+//     .catch( (err) => {
+//         console.log(err);
+//     });
