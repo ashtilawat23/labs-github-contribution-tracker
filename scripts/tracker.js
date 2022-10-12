@@ -13,7 +13,7 @@ import {
     getPullsByRepo, 
     getReviewsByPullNum, 
     getCommitsByPullNum 
-} from './wrappers/GitHub.js'
+} from '../wrappers/GitHub.js'
 
 // Setting up Lowdb
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -22,7 +22,7 @@ const adapter = new JSONFile(file)
 const db = new Low(adapter)
 
 // key variables
-import { staff, staffTeams } from './db/staff.js'
+import { staff, staffTeams } from '../db/staff.js'
 const org = process.env.GITHUB_ORG;
 
 function setDefaults() {
