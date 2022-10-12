@@ -1,3 +1,3 @@
-import { writeDb } from "./tracker.js";
+import { writeDb } from "./commits.js";
 
 writeDb();

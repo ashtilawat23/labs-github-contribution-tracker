@@ -96,4 +96,20 @@ async function getCommitsByPullNum(ORG, REPO, PULLNUM) {
     };
 };
 
-export { getTeamsByOrg, getMembersBySlug, getReposBySlug, getPullsByRepo, getReviewsByPullNum, getCommitsByPullNum };
+async function getCommitsByRepo(ORG, REPO) {
+    try {
+        const response = await octokit.rest.repos
+        .listCommits({
+            owner: ORG,
+            repo: REPO,
+            per_page: 20,
+            since: "2022-07-07T14:48:00.000Z"
+        });
+        return response;
+    }
+    catch(error) {
+        console.log(`Could not get commits: ${error}`);
+    }
+}
+
+export { getTeamsByOrg, getMembersBySlug, getReposBySlug, getPullsByRepo, getReviewsByPullNum, getCommitsByPullNum, getCommitsByRepo };

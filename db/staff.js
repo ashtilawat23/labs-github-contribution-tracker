@@ -21,4 +21,6 @@ export const staffTeams = [
     "labby-admins",
     "labs-contractors",
     "labs-engineering",
+    "learner-assistants",
+    "test-team"
 ];
