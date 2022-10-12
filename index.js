@@ -19,8 +19,8 @@ app.get('/commits', async (req, res) => {
 })
 
 app.get('/teams', async (req, res) => { 
-    const { teams } = db.data
-    res.send(teams)
+    const { teamSlugs } = db.data
+    res.send(teamSlugs)
 })
 
 app.listen(8000, () => {
